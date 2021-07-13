@@ -1,0 +1,139 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+* {
+    font-family: arial, sans-serif;
+}
+/* Navigation bar */
+
+.nav {
+    font-size: 14px;
+    padding-right: 13px;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: #2F2F2F;
+    padding: 7px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.rightalign {
+    float: right;
+}
+
+.signin {
+    padding: 9px 30px 9px 30px;
+    background-color:#1A73E8;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.signin:hover {
+    background-color: #4189e7;
+}
+
+/* Main */
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 195px;
+}
+
+.searchbar {
+    display: inline-block;
+    margin: auto;
+    width: 582px;
+    height: 44px;
+    border-radius: 30px;
+    border-color: #cecece;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 25px;
+    outline: none;
+    text-indent: 20px;
+    font-size: 16px;
+}
+
+.searchbutton {
+    margin: 10px;
+    margin-top: 30px;
+    border: none;
+    padding: 8px 18px 8px 18px;
+    font-size: 14px;
+    color: #494949;
+}
+
+.searchbutton:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2F2F2F;
+    padding: 7px 17px 8px 17px;
+}
+
+.lan-p {
+    text-align: center;
+    font-size: 13px;
+}
+
+/* Footer */
+
+.footer-left {
+    float: left;
+    padding-left: 20px;
+    font-size: 14px;
+
+}
+
+.footer-right {
+    float: right;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+#valsts {
+    position:absolute;
+    bottom: 0;
+    padding-left: 21px;
+    padding-bottom: 40px;
+    color:#2F2F2F;
+    background-color: #f2f2f2;
+    width: 100%;
+    padding-top: 14px;
+}
+
+footer {
+    background-color:#f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: .5pt;
+    border-top-style: solid;
+    border-color: rgb(194, 194, 194)
+}
